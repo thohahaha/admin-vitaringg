@@ -1,0 +1,31 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "vitaring-49c16",
+          "appId": "1:988321571107:android:27c51cd8377618b4196c96",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "vitaring-49c16",
+          "configurations": {
+            "android": "1:988321571107:android:27c51cd8377618b4196c96",
+            "ios": "1:988321571107:ios:7a9e8f43718c3313196c96",
+            "macos": "1:988321571107:ios:7a9e8f43718c3313196c96",
+            "web": "1:988321571107:web:0a21296ebc191b52196c96",
+            "windows": "1:988321571107:web:623667df956424ab196c96"
+          }
+        }
+      }
+    }
+  },
+  "firestore": {
+    "database": "(default)",
+    "location": "asia-southeast2",
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  }
+}
